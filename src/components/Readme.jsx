@@ -16,7 +16,7 @@ function Readme() {
         import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS import
       </code>
       <br />
-      <p>At the bottom of your file, add:</p>
+     
       <code>
         {/* Assuming this is the bottom of the index.js file */}
         <br />
