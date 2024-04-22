@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+Navbar is Live At:https://react-navbar-header.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Styling:
 
-## Available Scripts
+In your index.js, add the following import to include Bootstrap CSS:
 
-In the project directory, you can run:
+import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS importHeader Component
 
-### `npm start`
+The Header component is a responsive navigation bar built using React and React Bootstrap. It provides a user-friendly navigation experience with the following functionalities:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Functionalities:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Navigation Bar:
+- Brand Logo: Clicking the brand logo redirects the user to the home page.
+- Toggle Button: A toggle button (hamburger icon) allows users to expand/collapse the menu on smaller screens.
 
-### `npm test`
+Dropdown Menu:
+- Dropdown Functionality: 
+  - Outside Click: The dropdown menu closes when clicked outside of the dropdown area.
+  - Toggle: Clicking on a dropdown title toggles the dropdown menu.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Active State:
+- Active Menu Item: The active menu item is highlighted with the 'active' class to indicate the current page.
 
-### `npm run build`
+Navigation:
+- Navigation Links: Each menu item and dropdown item is clickable and navigates to the respective page.
+- Routing: React Router is used for client-side routing to ensure smooth navigation between pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install the required packages, run the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install react-router-dom @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons react-bootstrap bootstrap
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Styling:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In your index.js, add the following import to include Bootstrap CSS:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS import
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Developed by:Vishal Mahajan.
+![Screenshot 2024-04-22 120441](https://github.com/v1shalx/react-bootstrap-navbar/assets/141364555/e1d5028f-92b6-496d-babd-0973bbd62c17)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+![Screenshot 2024-04-22 120503](https://github.com/v1shalx/react-bootstrap-navbar/assets/141364555/f5af5448-c7c1-4f5f-8438-858c7cc2388f)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot 2024-04-22 120758](https://github.com/v1shalx/react-bootstrap-navbar/assets/141364555/f26c1da5-2d60-43da-b84d-d02a1ec6ec91)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 2024-04-22 120811](https://github.com/v1shalx/react-bootstrap-navbar/assets/141364555/8cb08578-82bd-4516-8141-4df680602c4e)
+![Screenshot 2024-04-22 120828](https://github.com/v1shalx/react-bootstrap-navbar/assets/141364555/858e07c6-a670-48e7-81c4-2a49a5dac89f)
